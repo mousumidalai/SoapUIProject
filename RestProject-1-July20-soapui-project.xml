@@ -73,6 +73,12 @@
           </con:restRequest>
         </con:config>
       </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script" id="9c97d6e2-196d-4fa1-9198-023ff0897560">
+        <con:settings/>
+        <con:config>
+          <script>log.info "my git project"</script>
+        </con:config>
+      </con:testStep>
       <con:properties/>
     </con:testCase>
     <con:properties/>
